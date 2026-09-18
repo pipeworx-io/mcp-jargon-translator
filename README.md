@@ -77,3 +77,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/jargon_translator_translate \
+  -H 'Content-Type: application/json' \
+  -d '{"content":"We need to leverage our synergies and circle back on this to ideate some low-hanging fruit.","direction":"corporate_to_english","formality":"passive_aggressive"}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/jargon_translator_translate`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
