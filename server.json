@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/jargon-translator",
-  "title": "jargon translator",
-  "description": "jargon-translator MCP — wraps StupidAPIs (requires X-API-Key)",
-  "version": "0.1.0",
+  "title": "Jargon Translator",
+  "description": "jargon-translator MCP — wraps StupidAPIs (keyless — no credential needed)",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/jargon-translator",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-jargon-translator",
